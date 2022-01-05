@@ -1,0 +1,168 @@
+body{
+    background-color: rgb(144, 140, 144);
+}
+
+.topnav{
+    padding: 1px;
+    margin:10px 5px;
+    border: 2px solid rgb(88, 13, 113);
+    overflow: hidden;
+   background-color: rgb(192, 117, 192);
+   position: relative;
+}
+
+.topnav a{  
+    color: rgb(39, 42, 108);
+    border: 1px solid rgb(88, 13, 113);
+    margin: 5px;
+    text-align: center;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    font-size: 20px;
+    float: right;
+    font-family: 'IBM Plex Serif', serif;
+}
+
+.topnav a:hover{
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    background-color: rgb(174, 99, 174);
+    color: rgb(233, 225, 234);
+    
+}
+
+.login-form{
+    position: relative;
+    font-family: 'IBM Plex Serif', serif;
+    background-color: rgb(161, 197, 130);
+    padding: 25px; 
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 40px;
+    border-radius: 5px;
+}
+
+.login-form h1{
+    font-size: 24px;
+    font-weight: 5;
+    text-align: center;
+    background-color: rgb(51, 43, 108);
+    color: rgb(222, 222, 222);
+    padding: 10px 5px;
+    margin-left: 35%;
+    margin-right: 35%;
+    margin-bottom: 10;
+    margin-top: 0;
+    border-radius: 5px;
+    font-family: 'DM Sans', sans-serif;
+}
+
+.login-form p{
+    margin-bottom: 5px;
+    padding-top: 4px;
+    font-size: 18px;
+    font-family: 'Noticia Text', serif;
+}
+
+.login-form input{
+    margin-top: 0;
+    border-radius: 5px;
+    padding:10px 60px;
+}
+
+::placeholder{
+    margin-left: 0;
+    font-size: 20px;
+    font-family: 'IBM Plex Serif', serif;
+    color: rgb(178, 176, 177);
+}
+
+*{
+    box-sizing: border-box;
+}
+
+
+#open1{
+    margin-top: 30px;
+    padding: 7px 30px;
+    border-radius: 5px;
+    font-size: 23px;
+    color:rgb(238, 238, 238);
+    background-color:rgb(103, 92, 185) ;
+    font-family: 'IBM Plex Serif', serif;
+}
+
+#open2{
+    margin-top: 30px;
+    padding: 4px 40px;
+    border-radius: 18px;
+    font-size: 16px;
+    color:rgb(60, 72, 207);
+    background-color:rgb(185, 185, 190) ;
+    font-family: 'IBM Plex Serif', serif;
+}
+
+.popupContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'IBM Plex Serif', serif;
+    transition: opacity 0.3s ease;
+}
+
+
+.forgetpassword-popupcontainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'IBM Plex Serif', serif;
+}
+
+.popup1{
+    align-items: center;
+    border-radius: 5px;
+    padding: 50px 80px;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    background-color: rgb(157, 81, 157);
+    font-family: 'IBM Plex Serif', serif;
+    opacity: 0.9;
+}
+
+.popup2{
+    margin-top: 50px;
+    border-radius: 5px;
+    padding: 50px 80px;
+    color: white;
+    font-size: 30px;
+    background-color: rgb(157, 81, 157);
+    font-family: 'IBM Plex Serif', serif; 
+    opacity: 0.9;
+}
+
+
+.popup1 button{
+    margin-top: 50px;
+    margin-left: 80px;    
+    padding: 1px 25px;
+    border-radius: 5px;
+    font-size: 18px;
+    color:rgb(251, 251, 251);
+    background-color:rgb(33, 110, 217) ;
+    font-family: 'IBM Plex Serif', serif;
+}
+
+.popup2 button{
+    margin-top: 70px;
+    margin-left: 160px;    
+    padding: 1px 25px;
+    border-radius: 5px;
+    font-size: 18px;
+    color:rgb(251, 251, 251);
+    background-color:rgb(33, 110, 217) ;
+    font-family: 'IBM Plex Serif', serif;
+}

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+
+    <title>Vennela's website</title>
+</head>
+<body>
+    <div class = "topnav">
+
+        <a href="#login">Log in</a>
+        <a href="#help">Help</a>
+        <a href="#about">About</a>
+        <a href="#news">News</a>
+        <a class="active" href="#home">Home</a>
+    
+    </div>
+
+    <div class="login-form">
+        <h1>LOGIN FORM</h1>
+        <form action="#" method = post>
+            <p>User name</p>
+            <input type="text" name="user" placeholder="username"> 
+            <p>Password</p>
+            <input type="password" name="password" placeholder="password">
+            <p>Confirm password</p>
+            <input type="password" name="confirm password" placeholder="confirm password">
+            <div><button id="open1" onclick="togglePopup()">LOGIN</button></div>
+            <script src="index.js"></script>
+                <div><button id="open2">forgot password?</button></div>
+        </form>
+    </div>
+    <br>
+    
+
+    <div class="popupContainer" id="popupContainer">
+        <div class="popup1">you have logged in :)
+            <br>
+        <div><button id="close1">close</button></div>
+    </div>
+    </div>
+
+    <div class="forgetpassword-popupcontainer" id="forgetpassword-popupcontainer">
+        <div class="popup2">you have forgotten your password :(
+            <br>
+        <div><button id="close2">close</button></div>
+    </div>
+    </div>
+</body>
+</html>
